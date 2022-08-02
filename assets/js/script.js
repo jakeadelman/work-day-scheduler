@@ -35,18 +35,18 @@ function backgroundChanger(row) {
   var difference = (theHour - currHour) / 3600000;
 
   if (difference > 1) {
-    row.children(".col-md-10").css("background-color", "green");
+    row.children(".col-md-9").css("background-color", "lightgreen");
   } else if (difference == 0) {
-    row.children(".col-md-10").css("background-color", "red");
+    row.children(".col-md-9").css("background-color", "red");
   } else if (difference < 1) {
-    row.children(".col-md-10").css("background-color", "grey");
+    row.children(".col-md-9").css("background-color", "grey");
   }
 }
 
 function onSave(row) {
   var saveEl = row.children(":last");
   var timeEl = row.children(":first");
-  var inputEl = row.children(".col-md-10");
+  var inputEl = row.children(".col-md-9");
 
   saveEl.click(function () {
     localStorage.setItem(timeEl.text(), inputEl.val());
@@ -55,7 +55,7 @@ function onSave(row) {
 
 function getEvent(row) {
   var timeEl = row.children(":first");
-  var inputEl = row.children(".col-md-10");
+  var inputEl = row.children(".col-md-9");
   var timeElText = timeEl.text();
 
   var storage = localStorage.getItem(timeElText);

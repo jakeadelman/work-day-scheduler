@@ -1,0 +1,39 @@
+.diskette{
+    width:26px;
+    cursor:pointer;
+}
+.col-md-9{
+    height:80px;
+}
+.time{
+    text-align: center;
+    height: 80px;
+    line-height: 80px;
+    border-bottom: 2px dashed grey;
+}
+
+.save{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:80px;
+    border-bottom:2px solid grey;
+}
+
+#eventinput{
+    border:none;
+    border-radius:0px;
+    border-bottom:2px solid grey;
+}
+
+.top-container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    border-bottom:5px solid black;
+    margin-top:40px;
+}
+.top-container p {
+    width:fit-content;
+}
