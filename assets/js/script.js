@@ -37,9 +37,9 @@ function backgroundChanger(row) {
   if (difference > 1) {
     row.children(".col-md-9").css("background-color", "lightgreen");
   } else if (difference == 0) {
-    row.children(".col-md-9").css("background-color", "red");
+    row.children(".col-md-9").css("background-color", "#F62817");
   } else if (difference < 1) {
-    row.children(".col-md-9").css("background-color", "grey");
+    row.children(".col-md-9").css("background-color", "lightgrey");
   }
 }
 
