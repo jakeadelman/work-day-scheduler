@@ -4,3 +4,6 @@ A simple app for scheduling events in the workday. Made with Jquery and Bootstra
 
 ## Link to live application
 [https://jakeadelman.github.io/work-day-scheduler/](https://jakeadelman.github.io/work-day-scheduler/)
+
+## Preview
+![preview](https://github.com/jakeadelman/work-day-scheduler/blob/main/assets/images/workdayscheduler.png)
